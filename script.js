@@ -44,7 +44,7 @@
         // Function to render sorted band names in the list
         function renderBands(bands) {
             const sortedBands = sortBands(bands);
-            const ul = document.getElementById('band');
+            const ul = document.getElementById('bands');
 
             // Clear existing list items
             ul.innerHTML = '';
